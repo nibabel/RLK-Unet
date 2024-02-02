@@ -24,7 +24,7 @@ https://doi.org/10.3389/fonc.2023.1273013
 ```
 2. .
 ```
-    cd RLK_Unet/
+    cd RLK_Unet
 ```
 3. .
 ```
