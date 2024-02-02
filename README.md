@@ -23,15 +23,15 @@ https://doi.org/10.3389/fonc.2023.1273013
     git clone https://github.com/nibabel/RLK_Unet.git
 ```
 2. .
-
+```
     cd RLK_Unet/
-
+```
 3. .
-
+```
     pip install -e .
-
+```
 4. .
-
+```
    rlk_unet -i {input} -gpu {GPU_device_num}
-
+```
 ---
