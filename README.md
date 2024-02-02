@@ -32,6 +32,6 @@ https://doi.org/10.3389/fonc.2023.1273013
 ```
 4. .
 ```
-   rlk_unet -i {input} -gpu {GPU_device_num}
+   rlk_unet -i {input}
 ```
 ---
