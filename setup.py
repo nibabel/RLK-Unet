@@ -15,7 +15,7 @@ setup(
         'timm',
         'torch>=1.9.0',
         ],
-    scripts=['RLK_Unet/rlk_unet.py'],
+    scripts=['RLK_Unet/rlk_unet'],
     packages=find_packages(include=['RLK_Unet']),
     classifiers=[
         'Programming Language :: Python',
