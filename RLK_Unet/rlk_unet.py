@@ -1,0 +1,30 @@
+import os
+import argparse
+
+from RLK_Unet.run import run_model
+
+
+if __name__ == "__main__":
+      print("\n*******************************************")
+      print("If you use RLK-Unet, please cite the following paper: ")
+      print("Son S, Joo B, Park M, Suh SH, Oh HS, Kim JW, Lee S, Ahn SJ, Lee J-M. "
+            "Development of RLK-Unet: A clinically favorable deep learning algorithm for brain metastasis detection and treatment response assessment. "
+            "Frontiers in Oncology, 13, 1273013. ")
+      print("*******************************************\n")
+      print("")
+
+      parser = argparse.ArgumentParser()
+      parser.add_argument('-i', '--input', help="input. It must be a single file and must be NIfTI (nii or nii.gz). Also, it's only 3D.", required=True, type=str)
+      parser.add_argument('-gpu', help="GPU device. Set the GPU device on which predictions will run. Default: 0", default='0', required=False, type=int)
+      parser.add_argument('-t', '--threshold', help="Specifies the number of voxels treated as noise in the predicted result. "
+                          "Noise is removed for the specified number of voxels. Default: 3", default='3', required=False, type=int)
+      args = parser.parse_args()
+
+      input_img       = args.input
+      GPU_num         = args.gpu
+      result_thr      = args.threshold
+      weight_path     = os.path.dirname(os.path.abspath(__file__)) + '/weight'
+      output_result   = os.path.dirname(os.path.abspath(input_img))
+
+      ### running
+      run_model(input_img, output_result, weight_path, GPU_num, result_thr)
