@@ -1,5 +1,5 @@
 # RLK_Unet
-The RLK_Unet deep learning model that segments brain metastasis(BMs).
+The RLK_Unet deep learning model that segments brain metastasis (BMs).
 
 <img width="1290" alt="RLK_Unet model image" src="https://github.com/nibabel/rlk_unet/assets/135964734/5dfd8827-ed35-4204-9996-c20256940071">
 
