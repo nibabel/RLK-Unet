@@ -18,20 +18,24 @@ https://doi.org/10.3389/fonc.2023.1273013
 
 ---
 
-1. .
+1. Clone the repository to use RLK-Unet.
 ```
     git clone https://github.com/nibabel/RLK_Unet.git
 ```
-2. .
+2. Go to the installed repository directory.
 ```
     cd RLK_Unet
 ```
-3. .
+3. Install the virtual environment package to use RLK-Unet.
 ```
     pip install -e .
 ```
-4. .
+4. Once the installation is complete, BMs can be segmented using the 'rlk_unet' command from anywhere in Linux.
 ```
    rlk_unet -i {input}
 ```
 ---
+
+
+!!!CAUTION!!!
+Input is only 3D black blood (BB) T1-weighted image.
