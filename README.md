@@ -37,5 +37,4 @@ https://doi.org/10.3389/fonc.2023.1273013
 ---
 
 
-!!!CAUTION!!!
-Input is only 3D black blood (BB) T1-weighted image.
+__CAUTION: Input is only 3D black blood (BB) T1-weighted image.__
