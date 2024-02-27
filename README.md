@@ -31,7 +31,7 @@ https://doi.org/10.3389/fonc.2023.1273013
 ```
     pip install -e .
 ```
-4. Once the installation is complete, BMs can be segmented using the 'rlk_unet' command from anywhere in Linux.
+4. Once the installation is complete, BMs can be segmented using the '_rlk_unet_' command from anywhere in Linux.
 ```
    rlk_unet -i {input}
 ```
