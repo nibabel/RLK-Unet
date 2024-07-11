@@ -21,19 +21,19 @@ https://doi.org/10.3389/fonc.2023.1273013
 
 1. Clone the repository to use RLK-Unet.
 ```
-    git clone https://github.com/nibabel/RLK_Unet.git
+git clone https://github.com/nibabel/RLK_Unet.git
 ```
 2. Go to the installed repository directory.
 ```
-    cd RLK_Unet
+cd RLK_Unet
 ```
 3. Install the virtual environment package to use RLK-Unet.
 ```
-    pip install -e .
+pip install -e .
 ```
 4. Once the installation is complete, BMs can be segmented using the '__rlk_unet__' command from anywhere in Linux.
 ```
-   rlk_unet -i {input}
+rlk_unet -i {input}
 ```
 ---
 
